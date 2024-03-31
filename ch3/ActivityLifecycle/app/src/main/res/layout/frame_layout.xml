@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- 黃色 -->
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:background="#ffff00" />
+    <!-- 淡藍色 -->
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="#00ffff" />
+    <!-- 粉紅色 -->
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#ff00ff" />
+</FrameLayout>
