@@ -2,15 +2,15 @@ package com.example.imageview;
 
 import android.os.Bundle;
 import android.widget.ImageView;
-
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class MainActivity extends AppCompatActivity {
 
+public class MainActivity extends AppCompatActivity {
+    private ImageView imageView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -21,8 +21,8 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        ImageView imageview = (ImageView) findViewById(R.id.simpleImageView);
-        imageview.setImageResource(R.mipmap.lion);
+        imageView = (ImageView) findViewById(R.id.simpleImageView);
+        imageView.setImageResource(R.mipmap.lion);
 
     }
 }
