@@ -25,7 +25,14 @@ public class MainActivity extends AppCompatActivity {
         });
         txt = (TextView) findViewById(R.id.textView);
         txt.setText("嘿嘿嘿");
+        Log.d(LOG_TAG,"onCreate");
 
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        Log.d(LOG_TAG,"onStart");
     }
 
     @Override
